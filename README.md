@@ -1,51 +1,72 @@
-# PrintFy
-### Skip the line. Not the print.
+---
 
-A web app that lets university students upload documents and join a digital print queue at their campus print shop — from anywhere, anytime.
+
 
 ---
 
-## The Problem
-University print shops in Pakistan operate with zero queue system. Students physically line up, turns get skipped, and people leave without printing. 94% of surveyed LGU students have left without printing due to crowd. 82% rated their experience 1 out of 5.
+## 📌 The Problem
+
+University print shops in Pakistan operate with zero queue system. Students physically line up, turns get skipped, and people leave without printing.
+
+> 94% of surveyed LGU students have left without printing due to crowd.
+> 82% rated their experience 1 out of 5 — horrible.
 
 ---
 
-## The Solution
-PrintFy lets students upload their document from anywhere, set print preferences, choose an arrival time, and join a live queue. The shop operator sees all jobs in order on a dashboard and prints them before the student arrives.
+## 💡 The Solution
+
+PrintFy lets students upload their document from anywhere, set print preferences, pick an arrival time, and join a live digital queue. The shop operator manages all jobs from a clean dashboard.
 
 ---
 
-## Features
-- Upload PDF, DOC, or DOCX from any device
-- Set copies, color preference, and optional binding
-- Choose arrival time so documents are ready on arrival
-- Live queue position tracking
-- Document invisible to other students
-- Cancel document anytime before printing
-- Operator dashboard to manage and update job status
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 📄 File Upload | Upload PDF, DOC, or DOCX from any device |
+| ⚙️ Print Preferences | Set copies, color, and optional binding |
+| ⏰ Arrival Time | Pick when you arrive — doc is ready for you |
+| 📋 Live Queue | See your real-time position in queue |
+| 🔒 Privacy | Your document is invisible to other students |
+| ❌ Cancel Anytime | Delete your job before printing starts |
+| 🖥️ Operator Dashboard | Shop operator manages and updates job status |
 
 ---
 
-## Tech Stack
-- React + Vite
-- Tailwind CSS
-- Local state only — no backend, no database
+## 🛠️ Tech Stack
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB">
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&amp;logo=vite&amp;logoColor=white">
+<img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&amp;logo=tailwind-css&amp;logoColor=white">
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
+```bash
 git clone https://github.com/faiqaarooj/PrintFy.git
 cd PrintFy
 npm install
 npm run dev
+```
 
 ---
 
-## Status
-Hackathon build — Creator Colosseum 2026
-Validated with real student survey data from Lahore Garrison University.
+## 📊 Validation
+
+Primary research conducted at Lahore Garrison University across multiple departments.
+
+- 17 students surveyed
+- 94% left without printing due to crowd
+- 82% had their turn skipped or stolen
+- 82% rated current experience 1 out of 5
+- 82% said they would use PrintFy
 
 ---
 
-Built by Faiqa Arooj
+## 📍 Status
+
+Built for **Creator Colosseum Hackathon 2026**
+Pilot target: Lahore Garrison University Print Shop
+
+---
